@@ -1,0 +1,106 @@
+    body {
+        background-color: hsl(225, 100%, 96%);
+        background-image: url("images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        place-content: center;
+        display: flex;
+        min-height: 95vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .main {
+        background-color: white;
+        max-width: 370px;
+        font-family: 'red', display, hat;
+        border-radius: 15px;
+    }
+    
+    .hero {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        width: 100%;
+    }
+    
+    h1 {
+        color: hsl(223, 47%, 23%);
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .song {
+        color: hsl(224, 23%, 55%);
+        font-size: 16px;
+        text-align: center;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+    h4 {
+        color: hsl(223, 47%, 23%);
+        font-size: 15px;
+        margin: 1px;
+    }
+    
+    #pay {
+        background-color: hsl(245, 75%, 52%);
+        color: white;
+        border-radius: 10px;
+        padding: 3%;
+        margin: 20px 55px;
+        text-align: center;
+    }
+    
+    #pay:hover {
+        background-color: hsl(245, 96%, 71%);
+        cursor: pointer;
+    }
+    
+    .link {
+        background-color: hsl(225, 100%, 98%);
+        margin: 20px 50px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        border-radius: 10px;
+    }
+    
+    .money {
+        margin: 8px 1px 1px 1px;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .chn {
+        float: right;
+        margin: 10px;
+    }
+    
+    .chn:hover {
+        color: hsl(245, 96%, 71%);
+        text-decoration: none;
+    }
+    
+    .icon {
+        width: 50px;
+        float: left;
+        margin-right: 15px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .order {
+        color: hsl(224, 23%, 55%);
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .order:hover {
+        color: hsl(228, 33%, 3%);
+        cursor: pointer;
+    }
+    
+    .attribution {
+        text-align: center;
+        font-size: 12px;
+        text-decoration: none;
+    }
